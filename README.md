@@ -26,7 +26,6 @@ A Python-based application for pricing European options using the Black–Schole
 
 ### Setup & Run
 
-```bash
 git clone https://github.com/patricioputz/black-scholes-pricer.git
 cd black-scholes-pricer
 pip install -r requirements.txt
