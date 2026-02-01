@@ -31,7 +31,7 @@ A Python-based application for pricing European options using the Black–Schole
 - venv\Scripts\activate           (Windows)
 
 - pip install -r requirements.txt
- -streamlit run app.py
+- streamlit run app.py
 
 
 
