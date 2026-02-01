@@ -2,6 +2,8 @@
 
 A Python-based application for pricing European options using the Black–Scholes model.
 
+[![Live Demo](https://img.shields.io/badge/Live-Demo-blue?style=for-the-badge)](https://huggingface.co/spaces/patricioputz/black-scholes-pricer)
+
 ## Features
 
 **Core Functionality:**
