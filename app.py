@@ -126,19 +126,17 @@ st.sidebar.header("🔥 Heat Map Ranges")
 vol_min = st.sidebar.number_input(
     "Min Volatility",
     min_value=0.01,
-    max_value=2.0,
+    max_value=3.0,  
     value=max(0.05, sigma - 0.3),
-    step=0.05,
-    help="Minimum volatility for heat map"
+    step=0.05
 )
 
 vol_max = st.sidebar.number_input(
     "Max Volatility",
     min_value=0.01,
-    max_value=2.0,
-    value=sigma + 0.3,
-    step=0.05,
-    help="Maximum volatility for heat map"
+    max_value=3.0,  
+    value=min(sigma + 0.3, 2.5),  
+    step=0.05
 )
 
 price_min = st.sidebar.number_input(
