@@ -130,3 +130,9 @@ GitHub: https://github.com/patricioputz
 ---
 
 **Note**: This is an educational tool and should not be used for actual trading decisions. Always consult with a qualified financial advisor before making investment decisions.
+
+```markdown
+![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)
+![Streamlit](https://img.shields.io/badge/Streamlit-1.31-red.svg)
+![License](https://img.shields.io/badge/License-MIT-green.svg)
+```
