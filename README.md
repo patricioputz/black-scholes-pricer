@@ -26,12 +26,12 @@ A Python-based application for pricing European options using the Black–Schole
 
 ## Run locally
 
-python3 -m venv venv
-source venv/bin/activate   # macOS/Linux
-venv\Scripts\activate    # Windows
+- python3 -m venv venv
+- source venv/bin/activate    (macOS/Linux)
+- venv\Scripts\activate           (Windows)
 
-pip install -r requirements.txt
-streamlit run app.py
+- pip install -r requirements.txt
+ -streamlit run app.py
 
 
 
