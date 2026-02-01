@@ -24,12 +24,15 @@ A Python-based application for pricing European options using the Black–Schole
 - Python 3.8+
 - pip
 
-### Setup & Run
+## Run locally
 
-git clone https://github.com/patricioputz/black-scholes-pricer.git
-cd black-scholes-pricer
+python3 -m venv venv
+source venv/bin/activate   # macOS/Linux
+venv\Scripts\activate    # Windows
+
 pip install -r requirements.txt
 streamlit run app.py
+
 
 
 ### Basic Pricing
